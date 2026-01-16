@@ -81,58 +81,66 @@
 
   <!-- VITRINE -->
  <section id="imoveis" style="padding:30px; border-top:1px solid #ddd;">
-  <h2>Vitrine de Imóveis</h2>
-  <p>Exemplos ilustrativos para apresentação do portfólio.</p>
+  <h2>Imóveis em destaque</h2>
+  <p>Veja alguns imóveis anunciados. Chame no WhatsApp para informações e agendamento de visita.</p>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:18px;">
 
-    <!-- CARD 1 (com sua foto sem logo) -->
-    <article style="border:1px solid #ddd; border-radius:10px; overflow:hidden; background:#fff;">
-      <img src="assets/img/casa-alto-padrao.jpg" alt="Casa alto padrão" style="width:100%; height:180px; object-fit:cover;">
+    <!-- APARTAMENTO -->
+    <article style="border:1px solid #ddd; border-radius:12px; overflow:hidden; background:#fff;">
+      <img src="assets/img/apto-350k-card.jpg" alt="Apartamento à venda" style="width:100%; height:190px; object-fit:cover;">
       <div style="padding:14px;">
-        <p style="margin:0; font-size:13px; color:#666;">Venda • Alto padrão</p>
-        <h3 style="margin:8px 0;">Casa com área gourmet</h3>
-        <p style="margin:0 0 10px;"><strong>R$ 480.000</strong></p>
+        <p style="margin:0; font-size:13px; color:#666;">Venda • Apartamento</p>
+        <h3 style="margin:8px 0;">Apartamento à venda — 4 quartos</h3>
+        <p style="margin:0 0 10px;"><strong>R$ 350.000,00</strong></p>
         <p style="margin:0 0 10px; color:#444; font-size:14px;">
-          3 dormitórios (1 suíte) • 2 vagas • quintal com jardim.
+          04 quartos • 01 sala • cozinha • 2 banheiros • área de lazer
         </p>
-        <a href="https://wa.me/5535988849254" target="_blank">Quero mais informações →</a>
+
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="https://wa.me/5535988849254" target="_blank">Quero informações →</a>
+          <a href="#apto-fotos">Ver fotos</a>
+        </div>
       </div>
     </article>
 
-    <!-- CARD 2 (sem foto: placeholder) -->
-    <article style="border:1px solid #ddd; border-radius:10px; overflow:hidden; background:#fff;">
-      <div style="width:100%; height:180px; background:#f2f2f2; display:flex; align-items:center; justify-content:center; color:#777;">
-        Foto em breve
-      </div>
+    <!-- CHÁCARA -->
+    <article style="border:1px solid #ddd; border-radius:12px; overflow:hidden; background:#fff;">
+      <img src="assets/img/chacara-130k-card.jpg" alt="Chácara à venda" style="width:100%; height:190px; object-fit:cover;">
       <div style="padding:14px;">
-        <p style="margin:0; font-size:13px; color:#666;">Venda</p>
-        <h3 style="margin:8px 0;">Casa 2 quartos • quintal</h3>
-        <p style="margin:0 0 10px;"><strong>R$ 320.000</strong></p>
+        <p style="margin:0; font-size:13px; color:#666;">Venda • Chácara</p>
+        <h3 style="margin:8px 0;">Chácara à venda — oportunidade</h3>
+        <p style="margin:0 0 10px;"><strong>R$ 130.000,00</strong> <span style="color:#666; font-size:13px;">(de R$ 180.000,00)</span></p>
         <p style="margin:0 0 10px; color:#444; font-size:14px;">
-          Sala ampla • cozinha funcional • 1 vaga.
+          02 quartos • 01 sala • cozinha • banheiro • espaço externo
         </p>
-        <a href="https://wa.me/5535988849254" target="_blank">Quero mais informações →</a>
-      </div>
-    </article>
 
-    <!-- CARD 3 (sem foto: placeholder) -->
-    <article style="border:1px solid #ddd; border-radius:10px; overflow:hidden; background:#fff;">
-      <div style="width:100%; height:180px; background:#f2f2f2; display:flex; align-items:center; justify-content:center; color:#777;">
-        Foto em breve
-      </div>
-      <div style="padding:14px;">
-        <p style="margin:0; font-size:13px; color:#666;">Locação</p>
-        <h3 style="margin:8px 0;">Apartamento 2 quartos</h3>
-        <p style="margin:0 0 10px;"><strong>R$ 1.650/mês</strong></p>
-        <p style="margin:0 0 10px; color:#444; font-size:14px;">
-          Próximo ao comércio • boa localização.
-        </p>
-        <a href="https://wa.me/5535988849254" target="_blank">Quero mais informações →</a>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="https://wa.me/5535988849254" target="_blank">Quero informações →</a>
+          <a href="#chacara-fotos">Ver fotos</a>
+        </div>
       </div>
     </article>
 
   </div>
+
+  <!-- GALERIAS SIMPLES -->
+  <div id="apto-fotos" style="margin-top:28px;">
+    <h3>Fotos — Apartamento</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px;">
+      <img src="assets/img/apto-350k-piscina.jpg" alt="Piscina" style="width:100%; border-radius:10px;">
+      <img src="assets/img/apto-350k-cozinha.jpg" alt="Cozinha" style="width:100%; border-radius:10px;">
+    </div>
+  </div>
+
+  <div id="chacara-fotos" style="margin-top:28px;">
+    <h3>Fotos — Chácara</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px;">
+      <img src="assets/img/chacara-130k-fachada.jpg" alt="Fachada" style="width:100%; border-radius:10px;">
+      <img src="assets/img/chacara-130k-casa2.jpg" alt="Área externa" style="width:100%; border-radius:10px;">
+    </div>
+  </div>
+</section>
 
   <p style="margin-top:18px; font-size:13px; color:#666;">
     *Imóveis e valores ilustrativos, usados apenas para fins demonstrativos.*
